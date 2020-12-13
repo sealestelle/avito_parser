@@ -1,7 +1,7 @@
 # avito_parser
 Тестовое задание для стажёра Backend в команду MI
 #### ["Ссылка на задание"](https://github.com/avito-tech/mi-backend-trainee-assignment)
-Сервис асинхронно выполняет запросы, соответсвует PEP и используются type hints. Используется Python 3.8
+Сервис асинхронно выполняет запросы, соответсвует PEP и используются type hints. Написано на Python 3.8
 ## Запуск
 ### Используется Docker и запускатеся через:
 `docker-compose up`
