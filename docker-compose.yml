@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  mongodb:
+    image: mongo:latest
+    hostname: mongodb
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    hostname: web
+    command: ./run_server.sh
+    ports:
+      - "5057:5057"
+    volumes:
+      - .:/app
+    links:
+      - mongodb
