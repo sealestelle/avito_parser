@@ -1,5 +1,6 @@
 # avito_parser
-["Ссылка на задание"]https://github.com/avito-tech/mi-backend-trainee-assignment
+##### ["Ссылка на задание"](https://github.com/avito-tech/mi-backend-trainee-assignment)
+Сервис асинхронно выполняет запросы
 ## Запуск
 ### Используется Docker и запускатеся через:
 `docker-compose up`
